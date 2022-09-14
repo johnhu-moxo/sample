@@ -1,0 +1,17 @@
+name: New question 
+description: Raise a new question to our developer
+title: "[Question]: "
+#assignees:
+#  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this new question form!
+  - type: textarea
+    id: question
+    attributes:
+      label: Describe your question
+      description: A clear and concise description of what the question is.
+    validations:
+      required: true
